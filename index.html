@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assis — Backend Developer & Data Science Enthusiast</title>
+    <meta
+      name="description"
+      content="Portfolio de Assis — desenvolvedor backend (Python, Java) e entusiasta de Data Science."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="brand">
+          <div class="logo">AS</div>
+          <div>
+            <h1>Assis — Backend Developer</h1>
+            <p>Python • Java • Data Science Enthusiast</p>
+          </div>
+        </div>
+        <nav>
+          <a class="btn" href="#projects">Projetos</a>
+          <a class="btn" href="#skills">Skills</a>
+          <a class="btn" href="#contact">Contato</a>
+          <a class="btn primary" href="#resume">Currículo</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-label="introducao">
+          <div class="intro">
+            <h2>Olá — eu sou Assis 👋</h2>
+            <p>
+              Sou desenvolvedor backend com foco em Python e Java. Atualmente me
+              aprofundando em Data Science e engenharia de dados — SQL,
+              pipelines e modelos exploratórios fazem parte do meu dia a dia.
+            </p>
+
+            <div class="skills" id="skills" aria-hidden="false">
+              <span class="pill">Python</span>
+              <span class="pill">Java</span>
+              <span class="pill">SQL</span>
+              <span class="pill">ETL / Airflow</span>
+              <span class="pill">Pandas & NumPy</span>
+              <span class="pill">Docker</span>
+              <span class="pill">APIs REST</span>
+              <span class="pill">CI/CD</span>
+            </div>
+
+            <div
+              style="
+                margin-top: 18px;
+                display: flex;
+                gap: 12px;
+                flex-wrap: wrap;
+              "
+            >
+              <a class="btn primary" href="#projects">Ver projetos</a>
+              <a class="btn" href="mailto:seuemail@exemplo.com"
+                >Me mandar e‑mail</a
+              >
+            </div>
+          </div>
+
+          <aside class="profile-card" aria-label="perfil">
+            <div class="avatar">AS</div>
+            <div style="text-align: center">
+              <strong>Matheus Assis</strong>
+              <div class="muted">Backend • Python & Java • Data Science</div>
+            </div>
+            <div class="contact">
+              <div class="muted">Localização</div>
+              <div>Brasil</div>
+            </div>
+            <div class="socials" role="list">
+              <a href="https://github.com/" target="_blank" rel="noopener"
+                >GitHub ▸</a
+              >
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                >LinkedIn ▸</a
+              >
+            </div>
+            <div class="muted" style="font-size: 13px; text-align: center">
+              Disponível para trabalhos e colaborações.
+            </div>
+          </aside>
+        </section>
+
+        <section id="projects">
+          <h3>Projetos em destaque</h3>
+          <div class="grid projects">
+            <article class="card">
+              <h4>Pipeline ETL para dados financeiros</h4>
+              <p>
+                Implementação de pipeline batch com Python, Airflow e Postgres
+                para ingestion, transformação e validação de dados.
+              </p>
+              <div class="tags">
+                <span class="pill">Python</span>
+                <span class="pill">Airflow</span>
+                <span class="pill">Postgres</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <h4>API REST escalável (Java)</h4>
+              <p>
+                Serviço em Java com arquitetura hexagonal, testes e integração
+                contínua para alta disponibilidade.
+              </p>
+              <div class="tags">
+                <span class="pill">Java</span>
+                <span class="pill">Spring</span>
+                <span class="pill">Docker</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <h4>Análise exploratória / modelos</h4>
+              <p>
+                Notebooks com análise exploratory data analysis (EDA) e modelos
+                simples para prototipagem rápida.
+              </p>
+              <div class="tags">
+                <span class="pill">Pandas</span>
+                <span class="pill">scikit-learn</span>
+                <span class="pill">Notebooks</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section
+          style="display: flex; gap: 18px; flex-wrap: wrap; margin-top: 20px"
+        >
+          <div style="flex: 1; min-width: 280px">
+            <h3>Experiência</h3>
+            <div class="card" style="padding: 14px">
+              <strong>Backend Developer — Empresa X</strong>
+              <div class="muted">2023 — presente</div>
+              <p class="muted" style="margin-top: 8px">
+                Desenvolvimento de APIs, integração com bancos relacionais e
+                pipelines de ingestão.
+              </p>
+            </div>
+          </div>
+
+          <div style="flex: 1; min-width: 280px">
+            <h3>Formação & Cursos</h3>
+            <div class="card" style="padding: 14px">
+              <strong>Ciência da Computação / cursos online</strong>
+              <div class="muted">Python, SQL, Data Science</div>
+              <p class="muted" style="margin-top: 8px">
+                Cursos práticos em machine learning, engenharia de dados e
+                backend.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="resume">
+          <h3>Currículo</h3>
+          <div class="card resume">
+            <div>
+              <strong>Currículo — Matheus Assis</strong>
+              <div class="muted">Baixe uma cópia ou veja online</div>
+            </div>
+            <div class="right" style="display: flex; gap: 8px">
+              <a class="btn" href="#" aria-disabled="true">Download (PDF)</a>
+              <a class="btn primary" href="#">Ver resumo</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h3>Contato</h3>
+          <div
+            class="card"
+            style="padding: 18px; display: flex; gap: 18px; flex-wrap: wrap"
+          >
+            <div style="flex: 1; min-width: 240px">
+              <p class="muted">
+                Quer conversar sobre um projeto, vaga ou colaboração? Mande uma
+                mensagem.
+              </p>
+              <ul
+                style="margin: 12px 0; padding-left: 18px; color: var(--muted)"
+              >
+                <li>
+                  Email:
+                  <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+                </li>
+                <li>
+                  GitHub:
+                  <a href="https://github.com/">github.com/seuusuario</a>
+                </li>
+              </ul>
+            </div>
+
+            <form
+              style="
+                flex: 1;
+                min-width: 240px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+              "
+              action="mailto:seuemail@exemplo.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <label class="muted"
+                >Nome<input
+                  style="
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(255, 255, 255, 0.04);
+                    background: transparent;
+                    color: inherit;
+                    margin-top: 6px;
+                  "
+                  type="text"
+                  name="name"
+                  required
+              /></label>
+              <label class="muted"
+                >Mensagem<textarea
+                  rows="4"
+                  name="message"
+                  style="
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(255, 255, 255, 0.04);
+                    background: transparent;
+                    color: inherit;
+                    margin-top: 6px;
+                  "
+                  required
+                ></textarea>
+              </label>
+              <button class="btn primary" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div>
+            © <span id="year">2025</span> Assis — Backend & Data Science
+          </div>
+          <div class="muted">Feito com HTML + CSS — sem JavaScript</div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
